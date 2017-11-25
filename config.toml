@@ -1,0 +1,4 @@
+baseURL = "https://www.bouncingbit.com/"
+languageCode = "en-AU"
+title = "bouncingbit test site"
+theme = "ananke"
