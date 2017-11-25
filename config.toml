@@ -1,4 +1,9 @@
-baseURL = "https://www.bouncingbit.com/"
+baseURL = "https://bouncingbit.com/"
 languageCode = "en-AU"
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = false
+canonifyURLs = true
 title = "bouncingbit test site"
 theme = "ananke"
