@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://bouncingbit.com/"
-languageCode = "en-AU"
-title = "bouncingbit"
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Agency"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -45,10 +45,9 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "bouncingbit"
-    # brand = "The Agency"
+    brand = "The Agency"
     # Optional logo as brand stored in img/
-    # logo = "logo.svg"
+    #logo = "logo.svg"
     services = "Services"
     portfolio = "Portfolio"
     about = "About"
