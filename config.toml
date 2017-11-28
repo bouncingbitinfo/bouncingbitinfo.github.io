@@ -23,7 +23,7 @@ googleAnalytics = ""
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  favicon    = "favicon.png"
+  # favicon    = "favicon.png"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -66,10 +66,10 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    # [[menu.postpend]]
+    #   url = "http://gohugo.io"
+    #   name = "External link"
+    #   weight = 10
 
 
   # Hero section
@@ -83,7 +83,7 @@ googleAnalytics = ""
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
@@ -109,7 +109,7 @@ googleAnalytics = ""
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -126,7 +126,7 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
@@ -240,7 +240,7 @@ googleAnalytics = ""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
@@ -263,11 +263,11 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "info@bouncingbit.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    # thanks = "Thank you for awesomely contacting us."
+    # error = "Message could not be send. Please contact us at mail@example.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -297,7 +297,7 @@ googleAnalytics = ""
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
