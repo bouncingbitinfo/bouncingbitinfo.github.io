@@ -163,7 +163,7 @@ googleAnalytics = ""
   [params.team]
     enable = true
     # Possibility to center items
-    # center = true
+    center = true
     title = "Our amazing team"
     # subtitle = "Lorem ipsum dolor sit amet consectetur."
     # description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
