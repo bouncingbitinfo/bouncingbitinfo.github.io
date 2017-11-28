@@ -183,7 +183,8 @@ googleAnalytics = ""
     #     "Open Source [community management](#)"
     #   ]
       # For bio markdown and even multiline strings are available.
-      bio = """Burton is a Senior Software Engineer with strategic thinking. With analytical approach to what customers want, he sure can bring in add-value and fulfill the commitment."""
+      bio = """Burton is a Senior Software Engineer with strategic thinking,
+      specialised in testing solution and business digitalisation."""
     #   social = [
     #     ["fa-twitter", "#"],
     #     ["fa-facebook", "#"],
