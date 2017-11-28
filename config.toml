@@ -163,57 +163,56 @@ googleAnalytics = ""
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    # center = true
     title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    # subtitle = "Lorem ipsum dolor sit amet consectetur."
+    # description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      img = "AUS-TRA-ALIENS.jpg"
+      name = "Burton Swan"
+      position = "Founder"
+    #   reportsTo = "CTO"
+      livesIn = "[Melbourne, Australia](#https://www.google.com.au/maps/place/Melbourne+VIC)"
+    #   scope = [
+    #     "UX for [member dashboard](#)",
+    #     "Maintainer for [awesome-project](#)",
+    #     "Open Source [community management](#)"
+    #   ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      bio = """Burton is a Senior Software Engineer with strategic thinking. With analytical approach to what customers want, he sure can bring in add-value and fulfill the commitment."""
+    #   social = [
+    #     ["fa-twitter", "#"],
+    #     ["fa-facebook", "#"],
+    #     ["fa-linkedin", "#"]
+    #   ]
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    # [[params.team.members]]
+    #   img = "2.jpg"
+    #   name = "Larry Parker"
+    #   position = "Lead Marketer"
+    #   social = [
+    #     ["fa-twitter", "#"],
+    #     ["fa-facebook", "#"],
+    #     ["fa-linkedin", "#"]
+    #   ]
+    #
+    # [[params.team.members]]
+    #   img = "3.jpg"
+    #   name = "Diana Pertersen"
+    #   position = "Lead Developer"
+    #   social = [
+    #     ["fa-twitter", "#"],
+    #     ["fa-facebook", "#"],
+    #     ["fa-linkedin", "#"]
+    #   ]
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
