@@ -242,8 +242,8 @@ googleAnalytics = ""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    # subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    title = "Say Hi."
+    subtitle  = "or shoot an email to info@bouncingbit.com"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -270,7 +270,7 @@ googleAnalytics = ""
     # thanks = "Thank you for awesomely contacting us."
     # error = "Message could not be send. Please contact us at
     # info@bouncingbit.com instead."
-    thanks = "Thank you for awesomely contacting us."
+    thanks = "Thank you for awesomely contacting us!"
     error = "Message could not be send. Please contact us directly at info@bouncingbit.com"
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
