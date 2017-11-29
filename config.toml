@@ -241,9 +241,9 @@ googleAnalytics = ""
 
   # Contact section
   [params.contact]
-    enable = false
+    enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    # subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -268,8 +268,10 @@ googleAnalytics = ""
 
     # Success and error message overwrite for async contact form
     # thanks = "Thank you for awesomely contacting us."
-    # error = "Message could not be send. Please contact us at mail@example.com instead."
-
+    # error = "Message could not be send. Please contact us at
+    # info@bouncingbit.com instead."
+    thanks = "Thank you for awesomely contacting us."
+    error = "Message could not be send. Please contact us directly at info@bouncingbit.com"
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
       text = "Your Name *"
@@ -280,8 +282,8 @@ googleAnalytics = ""
       warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+      text = "Your Phone (Optional)"
+    #   warning = "Please enter your phone number."
 
     [params.contact.form.message]
       text = "Your Message *"
