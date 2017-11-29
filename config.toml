@@ -23,7 +23,7 @@ googleAnalytics = ""
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  # favicon    = "favicon.png"
+  favicon    = "favicon.png"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -176,7 +176,7 @@ googleAnalytics = ""
       name = "Burton Swan"
       position = "Founder"
     #   reportsTo = "CTO"
-      livesIn = "[Melbourne, Australia](https://www.google.com.au/maps/place/Melbourne+VIC)"
+      livesIn = "Melbourne, Australia"
     #   scope = [
     #     "UX for [member dashboard](#)",
     #     "Maintainer for [awesome-project](#)",
@@ -184,7 +184,8 @@ googleAnalytics = ""
     #   ]
       # For bio markdown and even multiline strings are available.
       bio = """Burton is a Senior Software Engineer with strategic thinking,
-      specialised in testing solution, training and business digitalisation."""
+      specialised in testing solution, business digitalisation, training and
+      technical recruiting."""
     #   social = [
     #     ["fa-twitter", "#"],
     #     ["fa-facebook", "#"],
