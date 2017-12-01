@@ -83,29 +83,36 @@ googleAnalytics = ""
 
   # Services section
   [params.services]
-    enable = false
+    enable = true
     title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    # subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      icon = "fa-briefcase"
+      title = "Consulting"
+      description = """bouncingbit provides a wide range of consulting services
+      in product testing solution, software security and privacy, open source
+      ecosystem, cloud engineering as well as mobile device and IoT."""
+    #   url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      title = "Digitalisation"
+      description = """bouncingbit understands how to help small business grow
+      in the age of Internet. We provide comprehensive digital solutions to put
+      your business online while let you seamlessly communicate with customers."""
+    #   url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      icon = "fa-university"
+      title = "Training"
+      description = """bouncingbit is keen to share its knowledge with local
+      community, meetup group and like-minded people. We offer training and
+      introductory sessions from our own experience in software engineering and
+      management."""
+    #   url = "#"
 
   # Portfolio section
   [params.portfolio]
@@ -184,8 +191,8 @@ googleAnalytics = ""
     #   ]
       # For bio markdown and even multiline strings are available.
       bio = """Burton is a Senior Software Engineer with strategic thinking,
-      specialised in testing solution, business digitalisation, training and
-      technical recruiting."""
+      specialised in testing solution, cloud engineering,
+      business digitalisation and technical training."""
     #   social = [
     #     ["fa-twitter", "#"],
     #     ["fa-facebook", "#"],
@@ -242,7 +249,7 @@ googleAnalytics = ""
   # Contact section
   [params.contact]
     enable = true
-    title = "Say Hi."
+    title = "Say Hi"
     subtitle  = "or shoot an email to info@bouncingbit.com"
     buttonText = "Send message"
 
