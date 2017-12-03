@@ -35,7 +35,8 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    /*color: #fed136;*/
+    color: #333;
 }
 
 a:hover,
@@ -516,7 +517,8 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    /*background-color: #fed136;*/
+    background-color: #fff;
 }
 
 .timeline>li .timeline-image h4 {
