@@ -17,8 +17,10 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "bouncingbit"
+  description = """bouncingbit is a professional IT consulting studio focus on
+  software engineering and management, business digitalisation as well as
+  general technical training."""
 
   # Link custom assets relative to /static
   custom_css = []
@@ -31,7 +33,7 @@ googleAnalytics = ""
 
   # 404 error customization
   [params.error404]
-    heading = "Page could not be found."
+    heading = ""
     text = "Please visit [Home Page](https://www.bouncingbit.com)"
 
   # Optional piwik tracking
