@@ -311,25 +311,25 @@ googleAnalytics = ""
 
   # Footer section
   [params.footer]
-    enable = false
-    copyright = "Published under the Apache License 2.0."
+    enable = true
+    copyright = "Copyright © 2017 bouncingbit"
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    # [[params.footer.social]]
+    #   icon = "fa-twitter"
+    #   link = "#"
+    #
+    # [[params.footer.social]]
+    #   icon = "fa-facebook"
+    #   link = "#"
+    #
+    # [[params.footer.social]]
+    #   icon = "fa-linkedin"
+    #   link = "#"
+    #
+    # [[params.footer.quicklinks]]
+    #   text = "Privacy Policy"
+    #   link = "#"
+    #
+    # [[params.footer.quicklinks]]
+    #   text = "Terms of Use"
+    #   link = "#"
