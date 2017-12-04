@@ -33,7 +33,7 @@ googleAnalytics = ""
 
   # 404 error customization
   [params.error404]
-    # heading = "Page could not be found."
+    heading = ""
     text = "Please visit [Home Page](https://www.bouncingbit.com)"
 
   # Optional piwik tracking
