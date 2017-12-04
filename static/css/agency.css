@@ -35,8 +35,8 @@ a.active {
 }
 
 a {
-    /*color: #fed136;*/
-    color: #333;
+    color: #fed136;
+    /*color: #333;*/
 }
 
 a:hover,
