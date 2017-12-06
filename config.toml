@@ -17,7 +17,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "bouncingbit"
+  # title = "bouncingbit"
   description = """bouncingbit is a professional IT consulting studio focus on
   software engineering and management, business digitalisation as well as
   general technical training."""
