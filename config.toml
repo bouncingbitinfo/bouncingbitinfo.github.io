@@ -312,7 +312,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Copyright © 2017 - 2018 bouncingbit"
+    copyright = "Copyright © 2017 - 2019 bouncingbit"
 
     # [[params.footer.social]]
     #   icon = "fa-twitter"
