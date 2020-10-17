@@ -300,6 +300,9 @@ googleAnalytics = ""
       text = "Your Message *"
       warning = "Please enter a message."
 
+    [params.contact.contact.postURL]
+      text = "https://formspree.io/f/info@bouncingbit.com"
+
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
       #  name = "someID"
@@ -312,7 +315,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Copyright © 2017 - 2019 bouncingbit"
+    copyright = "Copyright © 2017 - 2020 bouncingbit"
 
     # [[params.footer.social]]
     #   icon = "fa-twitter"
