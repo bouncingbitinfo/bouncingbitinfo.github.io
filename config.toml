@@ -300,7 +300,7 @@ googleAnalytics = ""
       text = "Your Message *"
       warning = "Please enter a message."
 
-    [params.contact.contact.postURL]
+    [params.contact.postURL]
       text = "https://formspree.io/f/info@bouncingbit.com"
 
       # Add optional form fields to identify contact forms
