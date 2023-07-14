@@ -281,6 +281,7 @@ googleAnalytics = ""
     # thanks = "Thank you for awesomely contacting us."
     # error = "Message could not be send. Please contact us at
     # info@bouncingbit.com instead."
+    postURL = "https://formspree.io/f/info@bouncingbit.com"
     thanks = "Thank you for awesomely contacting us!"
     error = "Message could not be send. Please contact us directly at info@bouncingbit.com"
     # 'warning' defines error messages for invalid inputs
@@ -300,8 +301,8 @@ googleAnalytics = ""
       text = "Your Message *"
       warning = "Please enter a message."
 
-    [params.contact.postURL]
-      text = "https://formspree.io/f/info@bouncingbit.com"
+    # [params.contact.postURL]
+    #   text = "https://formspree.io/f/info@bouncingbit.com"
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
